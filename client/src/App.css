@@ -1,0 +1,68 @@
+.app {
+  display: flex;
+  margin: 0;
+  place-content: center;
+  padding: 5vh;
+  height: 90vh;
+  background-color: rgba(131, 178, 195, 0.849);
+}
+
+.app_box {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  text-align: center;
+  background-color: transparent;
+}
+
+.app_box > h3 {
+  font-size: 20px;
+  color: rgb(140, 188, 230);
+}
+
+.app_box_input {
+  display: flex;
+  place-content: center;
+  flex-direction: row;
+}
+.app_box_input > button {
+  background-color: rgb(50, 209, 221);
+  border: none;
+  border-radius: 10px;
+  width: 60px;
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.app_box_input > button:active {
+  background-color: rgb(215, 227, 228);
+}
+.app_box_input > input {
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 4px;
+  height: 30px;
+  overflow: auto;
+  outline: none;
+  border: none;
+  background-color: white;
+  color: rgb(37, 31, 31);
+  overflow-wrap: break-word;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.app_box_tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8vh;
+}
+
+.app_box_tasks_in {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  row-gap: 20px;
+}

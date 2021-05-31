@@ -1,0 +1,38 @@
+.task {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 0px;
+  padding: 1px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: rgb(189, 213, 214);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.text {
+  border-radius: 10px;
+  overflow-wrap: break-word;
+  background-color: transparent;
+  color: black;
+  padding: 1px;
+  width: 120px;
+  margin-left: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.task > button {
+  background-color: transparent;
+  border-radius: 10px;
+  border: none;
+  height: 25px;
+  color: rgb(224, 30, 30);
+  cursor: pointer;
+}
+.task > button:active {
+  height: 30px;
+}
+
+.text > span {
+  font-size: 10px;
+  margin-left: 2px;
+  font-family: 'Times New Roman', Times, serif;
+}
